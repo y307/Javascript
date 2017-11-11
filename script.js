@@ -1,5 +1,10 @@
-jQuery('document').ready(function(){
-  jQuery('body').append('<a href="http://www.google.com.ua">Привет Google!</a>');
-  jQuery('div').remove();
-  jQuery('p').remove();
-});
+jQuery('document').ready(function()){
+	jQuery('body').append('<a href="http://google.com">Перейти в Google!</a>');
+	jQuery('div').remove();
+
+	var katet1, katet2;
+	katet1 = 10;
+	katet2 = 20;
+
+	alert(Math.round(Math.sqrt((katet1*katet1)+(katet2*katet2))))
+}
